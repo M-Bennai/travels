@@ -1,0 +1,224 @@
+[
+    {   
+        "country": "Emirates Arabes Unis",
+        "place": "Dubaï",
+        "label": "Hyatt Regency Creek",
+        "rating": "★★★★★",
+        "upto": "Dès 67€",
+        "redirect_label": "VERS LES EMIRATS ARABES UNIS — DUBAÏ",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Premium"
+            },
+            {
+                "classname": "option",
+                "label": "Surclassement offert"
+            }
+        ],
+        "link": "",
+        "image":"assets/HYATT_REGENCY_CREEK.png",
+        "image2":"assets/HYATT_REGENCY_CREEK2.png",
+        "image3":"assets/HYATT_REGENCY_CREEK3.png"
+    },
+    {   
+        "country": "Maurice",
+        "place": "Grand Rivière",
+        "label": "Laguna Beach Hotel & Spa",
+        "rating": "★★★★",
+        "upto": "Jusqu'à -64%",
+        "redirect_label": "VERS MAURICE — GRAND RIVIÈRE",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Tout inclus"
+            },
+            {
+                "classname": "option",
+                "label": "Spa"
+            }
+        ],
+        "link": "",
+        "image":"assets/LAGUNA_BEACH.png",
+        "image2":"assets/LAGUNA_BEACH2.png",
+        "image3":"assets/LAGUNA_BEACH3.png"
+
+    },
+    {   
+        "country": "Emirates Arabes Unis",
+        "place": "Dubaï",
+        "label": "Fairmont Dubaï",
+        "rating": "★★★★★",
+        "upto": "Dès 99€",
+        "redirect_label": "VERS LES EMIRATS ARABES UNIS — DUBAÏ",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Premium"
+            },
+            {
+                "classname": "option",
+                "label": "Rooftop"
+            }
+        ],
+        "link": "",
+        "image":"assets/FAIRMONT_DUBAI.png",
+        "image2":"assets/FAIRMONT_DUBAI2.png",
+        "image3":"assets/FAIRMONT_DUBAI3.png"
+    },
+    {   
+        "country": "Indonésie",
+        "place": "Bali & Gili",
+        "label": "Combiné Sthala - Marc - Patra",
+        "rating": "",
+        "upto": "Dès 469€",
+        "redirect_label": "VERS L'INDONÉSIE — BALI & GILI",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Combiné"
+            },
+            {
+                "classname": "option",
+                "label": "Petit déjeuner inclus"
+            }
+        ],
+        "link": "",
+        "image":"assets/STHALA_MARC_PATRA.png",
+        "image2":"assets/STHALA_MARC_PATRA2.png",
+        "image3":"assets/STHALA_MARC_PATRA3.png"
+    },
+    {   
+        "country": "Maldives",
+        "place": "Atoll de Noonu",
+        "label": "Noku Maldives",
+        "rating": "★★★★★",
+        "upto": "Jusqu'à -36%",
+        "redirect_label": "VERS MALDIVES — ATOLL DE NOONU",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Premium"
+            },
+            {
+                "classname": "option",
+                "label": "Massage offert"
+            }
+        ],
+        "link": "",
+        "image":"assets/NOKU_MALDIVES.png",
+        "image2":"assets/NOKU_MALDIVES2.png",
+        "image3":"assets/NOKU_MALDIVES3.png"
+    },
+    {   
+        "country": "Thaïlande",
+        "place": "Koh Samui",
+        "label": "Impiana Resort Samui",
+        "rating": "★★★★",
+        "upto": "Jusqu'à -70%",
+        "redirect_label": "VERS LA THAÏLANDE — KOH SAMUI",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Massage offert"
+            },
+            {
+                "classname": "option",
+                "label": "Surclassement offert"
+            }
+        ],
+        "link": "",
+        "image":"assets/IMPIANA_RESORT_SAMUI.png",
+        "image2":"assets/IMPIANA_RESORT_SAMUI2.png",
+        "image3":"assets/IMPIANA_RESORT_SAMUI3.png"
+    },
+    {  
+        "country": "Maurice",
+        "place": "Grand Baie",
+        "label": "Clos du Littoral",
+        "rating": "★★★★",
+        "upto": "Dès 538€",
+        "redirect_label": "VERS MAURICE — GRAND BAIE",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Premium"
+            },
+            {
+                "classname": "option",
+                "label": "Villas avec Piscine Privée"
+            }
+        ],
+        "link": "",
+        "image":"assets/CLOS_DU_LITTORAL.png",
+        "image2":"assets/CLOS_DU_LITTORAL2.png",
+        "image3":"assets/CLOS_DU_LITTORAL3.png"
+        
+    },
+    {   
+        "country": "Sri Lanka",
+        "place": "Sri Lanka",
+        "label": "Echappée SriLankaise",
+        "rating": "★★★",
+        "upto": "Dès 699€",
+        "redirect_label": "VERS LE SRI LANKA",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Circuit"
+            },
+            {
+                "classname": "option",
+                "label": "Privatif"
+            }
+        ],
+        "link": "",
+        "image":"assets/ECHAPEE_SRI_LANKAISE.png",
+        "image2":"assets/ECHAPEE_SRI_LANKAISE2.png",
+        "image3":"assets/ECHAPEE_SRI_LANKAISE3.png"
+    },
+    {  
+        "country": "Japon",
+        "place": "Tokyo",
+        "label": "Grand Arc Hanzomon",
+        "rating": "★★★",
+        "upto": "Dès 114€",
+        "redirect_label": "VERS LE JAPON — GRAND ARC HANZOMON",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "City Break"
+            },
+            {
+                "classname": "option",
+                "label": "Insolite"
+            }
+        ],
+        "link": "",
+        "image":"assets/JAPON.png",
+        "image2":"assets/JAPON2.png",
+        "image3":"assets/JAPON3.png"
+    },
+    {   
+        "country": "Vietnam",
+        "place": "De Hanoï à Hoi An",
+        "label": "Entre Culture et Plages",
+        "rating": "★★★★",
+        "upto": "Dès 779€",
+        "redirect_label": "VERS LE VIETNAM — DE HANOÏ À HOI AN",
+        "tags":[
+            {
+                "classname": "premium",
+                "label": "Circuit"
+            },
+            {
+                "classname": "option",
+                "label": "Privatif"
+            }
+        ],
+        "link": "",
+        "image":"assets/ENTRE_CULTURE_ET_PLAGES.png",
+        "image2":"assets/ENTRE_CULTURE_ET_PLAGES2.png",
+        "image3":"assets/ENTRE_CULTURE_ET_PLAGES3.png"
+    }
+]

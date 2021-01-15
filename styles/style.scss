@@ -1,0 +1,376 @@
+/*---------- Fonts ----------*/
+
+@font-face {font-family: "718 Book"; 
+    src: url("//db.onlinewebfonts.com/t/57b29aa914e88265536259de615b2a8a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/57b29aa914e88265536259de615b2a8a.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/57b29aa914e88265536259de615b2a8a.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/57b29aa914e88265536259de615b2a8a.woff") 
+    format("woff"), url("//db.onlinewebfonts.com/t/57b29aa914e88265536259de615b2a8a.ttf") 
+    format("truetype"), url("//db.onlinewebfonts.com/t/57b29aa914e88265536259de615b2a8a.svg#718 Book") 
+    format("svg"); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #EFEFEF;
+    font-family: "718";
+}
+
+.container {
+    
+    max-width: 1150px;
+    width: 100%;
+    margin: auto; 
+    
+}
+
+/*---------- Header ----------*/
+
+.header {
+    margin-top: 30px;
+    h1 {
+        font-family: 'Paprika', cursive;
+        display: flex;
+        justify-content: center;
+        color: #D92E22;
+        font-size: 30px;
+    }
+
+ h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 28px;
+ }
+
+}
+
+.lign1 {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+
+    button {
+        font-family: "718";
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border: none;
+        padding: 6px 10px 6px 10px;
+
+        h1 {
+          padding-top: 5px;
+          font-family: "718";
+          font-size: 20px;
+          font-weight: 400;
+          color: black;
+          margin-right: 10px;
+        }
+        
+}
+
+.button2 {
+  margin-left: 3px;
+  padding: 10px 10px 6px 10px; 
+  align-items: center;
+}
+
+.tools {
+    margin-right: 15px; 
+    margin-left: 8px;
+
+}
+
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+/*---------- Destinations from js (to div result) ----------*/
+
+.travel {
+    
+    background-color: white;
+    margin-bottom: 20px;
+    width: 369px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    h5 {
+        font-family: 'Paprika', cursive;
+        font-size: 12.5px;
+        
+    }
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px 0px 15px;
+
+    p {
+        margin-left: 5px;
+        font-size: 15px;
+        color: #6D6D6D;
+        
+    }
+}
+
+.descrip {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #8c8b8b;
+    padding: 0px 5px 0px 15px;
+
+  .rating {
+    color: black;
+    margin-left: 5px;
+  }
+  
+}
+
+.tags {
+    display: flex;
+    padding: 5px 10px 10px 15px;
+    text-transform: uppercase;
+  
+
+    h4 {
+        
+        font-size: 10px;
+        font-weight: lighter;
+        background-color: black;
+        color: white;
+        padding: 2px 2px 0px 2px;
+        
+    }
+
+    h5 {
+        margin-left: 10px;
+        font-family: "718";
+        font-size: 10px;
+        font-weight: lighter;
+        width: auto;
+        background-color: #BD9C6A;
+        color: white;
+        padding: 2px 2px 0px 2px;
+        
+    }
+}
+
+.upto {
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  bottom: 5px;
+  right: 10px;
+  text-shadow:  1px 1px rgb(48, 48, 48);
+  
+  
+}
+
+.footer {
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    bottom: 0;
+    width: 1150px;
+    background-color: #333333;
+    color: white;
+    padding: 35px 0px 35px 0px;
+    font-size: 17px; 
+
+    h5 {
+      display: flex;
+        justify-content: center;
+        font-weight: 100;
+        
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+    }
+}
+
+.emirates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+  p {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 15px; 
+  }
+}
+
+#result {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-flow: wrap;
+}
+
+
+
+  .enter-arrow {
+    margin-right: 30px;
+   }
+   
+   .description-left {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .description {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+  /*---------- Slider parameters (swiper js) ----------*/
+
+.swiper-container {
+    width: 369px;
+    height: 193px;
+    
+  }
+
+.swiper-slide {
+
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   
+    /* Center slide text vertically */
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+  }
+
+  .swiper-pagination-bullet {
+
+    width: 8px;
+    height: 8px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color:#000;
+    opacity: 1;
+    background: rgba(0,0,0,0.2);
+  
+  }
+
+  .swiper-pagination-bullet-active {
+    color:#fff;
+    background: white;
+    
+  }
+
+  .swiper-button-prev {
+    background-image: url(/assets/prev2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  
+  .swiper-button-prev::after {
+    display: none;
+  }
+  
+  .swiper-button-next {
+    
+    background-image: url(/assets/next2.png);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+  }
+  
+  .swiper-button-next::after {
+    display: none;
+  }
+
+  
+
+   /*---------- Responsive ----------*/
+   
+   @media only screen and (max-width: 1120px) {
+     #result { 
+       justify-content: space-around;
+     }
+
+     .footer {
+       width: 100%;
+     }
+   }
+
+   @media only screen and (max-width: 500px) {
+    .header {
+      margin-top: 10px;
+      h1 {
+          
+          font-size: 20px;
+      }
+  
+   h2 {
+      font-size: 20px;
+   }
+   }
+
+   .buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+
+    button {
+        font-family: "718";
+        background-color: transparent;
+        font-size: 20px;
+        border: black solid 1px;
+        padding: 10px 10px 10px 10px;
+}
+
+.button2 {
+  margin-left: 1px;
+  padding: 10px 10px 6px 10px;
+}
+
+.tools {
+    margin-right: 15px; 
+}
+
+}
+
+  }
+
